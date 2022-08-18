@@ -25,7 +25,6 @@
             auto_allocate_ip_type: V4_ONLY
             enabled: true
             auto_allocate_floating_ip: true 
-            avi_allocated_vip: true
             ipam_network_subnet:
               network_ref: '/api/network/?name={{ vip_placement_network }}'
        with_items:
